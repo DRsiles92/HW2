@@ -96,7 +96,7 @@ footer{
     border-top: 8px solid #4aaaa5;
     height: 5%;
     margin-top: 30px;
-    /* position: fixed; */
+    position: fixed;
  } 
 
  @media screen and (max-width: 640px) {
