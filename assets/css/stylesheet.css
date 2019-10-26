@@ -96,8 +96,22 @@ footer{
     border-top: 8px solid #4aaaa5;
     height: 5%;
     margin-top: 30px;
-    position: fixed;
+    position: unset;
  } 
+
+/* portfolio styling */
+.img-caption{
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+
+}
+.card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* porfolio styling */
+
 
  @media screen and (max-width: 640px) {
     
