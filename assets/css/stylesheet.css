@@ -48,6 +48,7 @@ a:link {
     margin-top: 30px;
     background-color: white;
     border: 2px solid #cccccc;
+    width: 75%;
 }
 h2 {
     margin-top: 15px;
@@ -111,10 +112,17 @@ footer{
     padding-right: 0px;
 }
 /* porfolio styling */
-
+@media screen and (min-width: 641px){
+    .nav{
+        justify-content: flex-end;
+    }
+}
 
  @media screen and (max-width: 640px) {
-    
+
+        .nav {
+            justify-content: center;
+        }
   .nav-bar{
       margin-bottom: 30px;
   }
